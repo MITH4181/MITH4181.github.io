@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About us</title>
+    <title>Contact-List</title>
     <!-- CSS section -->
     <link rel="stylesheet" href="./content/app.css">
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
@@ -24,13 +24,13 @@
                     <a class="nav-link"  href="index.html"><i class="fas fa-home"></i>Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="products.html"><i class="fas fa-project-diagram"></i> Products</a>
+                    <a class="nav-link active" aria-current="page" href="projects.html"><i class="fas fa-project-diagram"></i> Projects</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="services.html"><i class="fas fa-map-signs"></i> Services</a>
+                    <a class="nav-link active" href="services.html"><i class="fas fa-map-signs"></i> Services</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="aboutus.html"><i class="fas fa-info"></i> About US</a>
+                    <a class="nav-link active" href="aboutus.html"><i class="fas fa-info"></i> About US</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="contactus.html"><i class="fas fa-envelope"></i> Contact Us</a>
@@ -44,9 +44,33 @@
             </div>
           </nav>
     </header>
-    <div class="container">
-     <h1>About Us</h1> 
-    </div>
+    <main class="container">
+    <h1>Contact List</h1> 
+
+    <div class="row">
+      <div class="col">
+        <table class="table table-striped table-bordered table-hover">
+          <thead class="table-dark">
+            <tr>
+              <th scope="col" class="test-center">#</th>
+              <th scope="col">Full Name</th>
+              <th scope="col">Contact Number</th>
+              <th scope="col">Email Address</th>
+              <th scope="col"></th>
+              <th scope="col"></th>
+            </tr>
+          </thead>
+          <tbody id="contactList">
+
+
+          </tbody>
+        </table>
+      </div>
+    </div>   
+
+
+    </main>
+
      <!-- Scripting section -->
      <script src="./node_modules/jquery/dist/jquery.min.js"></script>
      <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
