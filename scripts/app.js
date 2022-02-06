@@ -17,12 +17,7 @@
 
    //human resources link
 
-   let hr = `<li class="nav-item">
-   <a class="nav-link"  href="index.html"><i class="fas fa-home"></i>Human Resources</a>
- </li>`;
-   let hr2 = document.createElement("a");
-   hr2.setAttribute("id","hr2");
-   hr2.innerHTML = hr;
+
 
 
 
