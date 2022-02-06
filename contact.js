@@ -44,7 +44,7 @@ class Contact
     }
     tostring()
     {
-        return `Full Name: ${this.FullName}\n Contact Number: ${this.ContactNumber}\n Email Addrress: ${this.EmailAddress}`;
+        return `Full Name: ${this.FullName}\n Contact Number: ${this.ContactNumber}\n Email Address: ${this.EmailAddress}`;
 
     }
 }
