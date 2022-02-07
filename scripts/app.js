@@ -11,7 +11,7 @@
 
 
 
-
+    //function to display content for the home page
     function DisplayHomePage()
     {
         // welcome statement
@@ -24,6 +24,8 @@
         DocumentBody.appendChild(hp2);
 
     }
+
+    //function to display content for the projects page
     function DisplayProjectsPage()
     {
 
@@ -31,6 +33,8 @@
 
   
     }
+
+    //function to display content for the services page
     function DisplayServicesPage()
     {
 
@@ -100,10 +104,14 @@
  
        
     }
+
+    //function to display content for the about us page
     function DisplayAboutUsPage()
     {
 
     }
+
+    //function to display content for the contact page
     function DisplayContactPage()
     {
       console.log("contact page")
@@ -138,6 +146,8 @@
 
       );
   }
+
+  //function to display content for the contact list page
   function DisplayContactListPage()
   {
     if(localStorage.length > 0)
