@@ -85,7 +85,7 @@
       
             //custom programming paragraph
             let p3 =`<div class="container">
-            <p>Web design is one of our specialties</p>
+            <p>we also do custom programming</p>
           </div>`;
             let p4 = document.createElement("div");
             p4.setAttribute("id","p4");
